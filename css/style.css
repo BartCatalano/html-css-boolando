@@ -28,6 +28,7 @@ a{
 /* banner */
 .banner{
     position: fixed;
+    z-index: 3;
     min-width: 100%;
 
 background-color:#ff6900;
@@ -71,8 +72,6 @@ background-color:#ff6900;
 .shopcol{
     position: relative;
     width:calc(95% / 3); 
-/* debug */
-border: 1px solid rgb(34, 12, 231);
 }
 .shopcol:hover .card{
 z-index: -1;
@@ -83,5 +82,45 @@ z-index: -1;
    
 }
 .cardb{
-  
-}
+  }
+
+  .textdisc{
+    color: red;
+  }
+  .textline{
+    text-decoration: line-through;
+  }
+  .textbrend{
+    color: gray;
+  }
+
+  /* tag interni */
+  .redtag{
+   position: absolute;
+   padding: 4px;
+   bottom: 60px;
+   left: 90px;
+    background-color: red;
+    color: white;
+    z-index: 2;
+  }
+  .greentag{
+    position: absolute;
+    bottom: 60px;
+    padding: 3px;
+    
+     background-color: rgb(0, 255, 115);
+     color: white;
+     z-index: 2;
+  }
+  .heart{
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 5px;
+    background-color: white;
+    padding: 8px;
+  }
+  .heart:hover{
+    color: red;
+  }
