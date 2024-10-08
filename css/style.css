@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+  
+}
+.mt-20{
+    margin-top: 20px;
+}
+/* utility */
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* debug */
+}
+.pd-3{
+    padding: 3px;
+}
+
+/* banner */
+.banner{
+    position: fixed;
+    min-width: 100%;
+
+background-color:#ff6900;
+
+}
+.rawbanner{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+
+}
+.colbanner{
+    color: white;
+    display: flex;
+
+
+}
+.logo{
+    height: 20px;
+}
+.iconmenu{ 
+    display: flex;
+}
+
+/* Shop List */
+.shopcontainer{
+    justify-content: space-between;
+    padding-top: 100px;
+    display: flex;
+
+}
+.shopraw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+
+
+}
+.shopcol{
+    position: relative;
+    width:calc(95% / 3); 
+/* debug */
+border: 1px solid rgb(34, 12, 231);
+}
+.shopcol:hover .card{
+z-index: -1;
+}
+.card{
+    position: absolute;
+    z-index: 1;
+   
+}
+.cardb{
+  
+}
