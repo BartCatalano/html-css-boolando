@@ -124,3 +124,11 @@ z-index: -1;
   .heart:hover{
     color: red;
   }
+  .redtag2{position: absolute;
+    padding: 4px;
+    bottom: 60px;
+     background-color: red;
+     color: white;
+     z-index: 2;
+
+  }
